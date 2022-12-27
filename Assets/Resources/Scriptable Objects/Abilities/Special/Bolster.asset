@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e23a59951ef67943b1c0a210a573844, type: 3}
+  m_Name: Bolster
+  m_EditorClassIdentifier: 
+  code: bolster
+  abilityName: Bolster
+  description: Increase friendly units health by 5 for 10 seconds.
+  type: 4
+  targetType: 2
+  targetKind: 2
+  targetAlignment: 2
+  unitReference: {fileID: 0}
+  castTime: 2
+  cooldown: 5
+  range: 10
+  targetingRadius: 0
+  targetAffects:
+  - health+/5/10
+  casterAffects: []
+  projectileAffects: []
+  projectilePrefab: {fileID: 0}
+  sprite: {fileID: 0}

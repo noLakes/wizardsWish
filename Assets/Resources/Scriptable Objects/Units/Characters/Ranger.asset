@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edf29ea136e799343b54aff4c65c5a36, type: 3}
+  m_Name: Ranger
+  m_EditorClassIdentifier: 
+  code: ranger
+  unitName: Ranger
+  description: Attacks foes from range with a bow
+  health: 10
+  prefab: {fileID: 1463428462097234236, guid: 8e14488b1e8a62b4ca7e2880fa3438b6, type: 3}
+  exclusiveRadius: 0
+  attackDamage: 1
+  attackRange: 15
+  attackRate: 0.8
+  attackProjectile: {fileID: 4021969610456104402, guid: a99501296860a354ca84848932f89831, type: 3}
+  attackOnHitAffects: []
+  cost:
+  - code: 2
+    amount: 25
+  - code: 0
+    amount: 5
+  baseGoldProduction: 0
+  baseManaProduction: 0
+  canProduce: 
+  abilities:
+  - {fileID: 11400000, guid: 491324239057dba408638b1764109a40, type: 2}
+  - {fileID: 11400000, guid: 0c0039535ac11694a9a14509341985ca, type: 2}
+  - {fileID: 11400000, guid: f0d34c420f9d90f4f9b4e6cf0ef01df5, type: 2}
+  fieldOfView: 30
+  level2Buffs:
+  - range+/4/0
+  level3Buffs:
+  - attack+/1/0
+  level4Buffs:
+  - speed+/5/0
+  - attack+/1/0

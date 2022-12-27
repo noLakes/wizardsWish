@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b5fc5909bbcc6046922f439ecd0a8b3, type: 3}
+  m_Name: 3_ManaWell
+  m_EditorClassIdentifier: 
+  code: manaWell
+  unitName: Mana Well
+  description: Harvests mana over time
+  health: 30
+  prefab: {fileID: 8234079515304222562, guid: 6b3c43c3c4c751a40aaed29518580a37, type: 3}
+  exclusiveRadius: 25
+  attackDamage: 0
+  attackRange: 0
+  attackRate: 0
+  attackProjectile: {fileID: 0}
+  attackOnHitAffects: []
+  cost:
+  - code: 0
+    amount: 30
+  - code: 3
+    amount: 20
+  baseGoldProduction: 0
+  baseManaProduction: 5
+  canProduce: 04000000
+  abilities: []
+  fieldOfView: 10
+  level2Buffs: []
+  level3Buffs: []
+  level4Buffs: []

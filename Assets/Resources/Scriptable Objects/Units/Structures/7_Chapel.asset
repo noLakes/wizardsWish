@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b5fc5909bbcc6046922f439ecd0a8b3, type: 3}
+  m_Name: 7_Chapel
+  m_EditorClassIdentifier: 
+  code: chapel
+  unitName: Chapel
+  description: Trains priests and heals nearby units
+  health: 80
+  prefab: {fileID: 8234079515304222562, guid: eaabd8e6ca057bc4899ae63184ff1294, type: 3}
+  exclusiveRadius: 150
+  attackDamage: 0
+  attackRange: 0
+  attackRate: 0
+  attackProjectile: {fileID: 0}
+  attackOnHitAffects: []
+  cost:
+  - code: 3
+    amount: 75
+  - code: 0
+    amount: 75
+  - code: 4
+    amount: 50
+  baseGoldProduction: 0
+  baseManaProduction: 0
+  canProduce: 
+  abilities:
+  - {fileID: 11400000, guid: 563846b2cfb1ce34bac6ea988f9340f5, type: 2}
+  fieldOfView: 18
+  level2Buffs: []
+  level3Buffs: []
+  level4Buffs: []

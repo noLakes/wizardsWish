@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edf29ea136e799343b54aff4c65c5a36, type: 3}
+  m_Name: Dummy
+  m_EditorClassIdentifier: 
+  code: dummy
+  unitName: Dummy
+  description: A stationary training dummy
+  health: 100
+  prefab: {fileID: 1463428462097234236, guid: ede19bdec89816543bba920e86a78fdf, type: 3}
+  exclusiveRadius: 0
+  attackDamage: 0
+  attackRange: 0
+  attackRate: 0
+  attackProjectile: {fileID: 2760781267237421431, guid: ccc61c1509110294cafe24dc7a20060d, type: 3}
+  attackOnHitAffects: []
+  cost: []
+  baseGoldProduction: 0
+  baseManaProduction: 0
+  canProduce: 
+  abilities: []
+  fieldOfView: 20
+  level2Buffs: []
+  level3Buffs: []
+  level4Buffs: []

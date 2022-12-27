@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b5fc5909bbcc6046922f439ecd0a8b3, type: 3}
+  m_Name: 5_Tower
+  m_EditorClassIdentifier: 
+  code: tower
+  unitName: Tower
+  description: A tower that defends territory with ranged attacks
+  health: 50
+  prefab: {fileID: 8234079515304222562, guid: 3fe0aa1d0528ed841b848317820cfe74, type: 3}
+  exclusiveRadius: 5
+  attackDamage: 1
+  attackRange: 20
+  attackRate: 0.5
+  attackProjectile: {fileID: 2760781267237421431, guid: ccc61c1509110294cafe24dc7a20060d, type: 3}
+  attackOnHitAffects: []
+  cost:
+  - code: 2
+    amount: 30
+  - code: 3
+    amount: 25
+  baseGoldProduction: 0
+  baseManaProduction: 0
+  canProduce: 
+  abilities: []
+  fieldOfView: 30
+  level2Buffs: []
+  level3Buffs: []
+  level4Buffs: []

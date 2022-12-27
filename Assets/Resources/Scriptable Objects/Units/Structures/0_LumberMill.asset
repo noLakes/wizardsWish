@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b5fc5909bbcc6046922f439ecd0a8b3, type: 3}
+  m_Name: 0_LumberMill
+  m_EditorClassIdentifier: 
+  code: lumberMill
+  unitName: Lumber Mill
+  description: Produces wood from nearby trees
+  health: 50
+  prefab: {fileID: 4373506761381941564, guid: 9bd8ac787ee45cb40b7478d41494800b, type: 3}
+  exclusiveRadius: 15
+  attackDamage: 0
+  attackRange: 0
+  attackRate: 0
+  attackProjectile: {fileID: 0}
+  attackOnHitAffects: []
+  cost:
+  - code: 2
+    amount: 30
+  - code: 0
+    amount: 10
+  baseGoldProduction: 0
+  baseManaProduction: 0
+  canProduce: 02000000
+  abilities: []
+  fieldOfView: 18
+  level2Buffs: []
+  level3Buffs: []
+  level4Buffs: []

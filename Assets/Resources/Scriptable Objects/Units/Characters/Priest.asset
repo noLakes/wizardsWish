@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edf29ea136e799343b54aff4c65c5a36, type: 3}
+  m_Name: Priest
+  m_EditorClassIdentifier: 
+  code: priest
+  unitName: Priest
+  description: Heals and buffs allied units
+  health: 10
+  prefab: {fileID: 1463428462097234236, guid: 0f263368d39c28046ab8dbf31516f1d2, type: 3}
+  exclusiveRadius: 0
+  attackDamage: 0
+  attackRange: 2
+  attackRate: 1
+  attackProjectile: {fileID: 0}
+  attackOnHitAffects: []
+  cost:
+  - code: 0
+    amount: 50
+  - code: 4
+    amount: 25
+  baseGoldProduction: 0
+  baseManaProduction: 0
+  canProduce: 
+  abilities:
+  - {fileID: 11400000, guid: a910894e73939974294078ace1cf4345, type: 2}
+  - {fileID: 11400000, guid: 0f0d89b86fbace743a53d1503311413d, type: 2}
+  - {fileID: 11400000, guid: 27bc790a111f84b448a93487b54933de, type: 2}
+  fieldOfView: 20
+  level2Buffs:
+  - health+/3/0
+  level3Buffs:
+  - attack+/1/0
+  level4Buffs:
+  - health+/3/0
+  - speed+/2/0

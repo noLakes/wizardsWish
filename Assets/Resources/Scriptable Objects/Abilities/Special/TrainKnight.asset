@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e23a59951ef67943b1c0a210a573844, type: 3}
+  m_Name: TrainKnight
+  m_EditorClassIdentifier: 
+  code: trainKnight
+  abilityName: Train Knight
+  description: Trains a Knight for battle
+  cost:
+  - code: 0
+    amount: 35
+  type: 0
+  targetType: 0
+  targetKind: 0
+  targetAlignment: 0
+  unitReference: {fileID: 11400000, guid: 72eb4f856fe4f1745a5340fab9d46ae6, type: 2}
+  castTime: 18
+  cooldown: 0
+  range: 0
+  targetingRadius: 0
+  targetAffects: []
+  casterAffects: []
+  projectileAffects: []
+  projectilePrefab: {fileID: 0}
+  sprite: {fileID: 0}

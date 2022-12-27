@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edf29ea136e799343b54aff4c65c5a36, type: 3}
+  m_Name: Knight
+  m_EditorClassIdentifier: 
+  code: knight
+  unitName: Knight
+  description: An expert warrior clad in heavy armor
+  health: 30
+  prefab: {fileID: 4093159421899085906, guid: 0947fac9aa20cfa4fb02a149104bf0d1, type: 3}
+  exclusiveRadius: 0
+  attackDamage: 4
+  attackRange: 3
+  attackRate: 2
+  attackProjectile: {fileID: 0}
+  attackOnHitAffects: []
+  cost:
+  - code: 0
+    amount: 60
+  baseGoldProduction: 0
+  baseManaProduction: 0
+  canProduce: 
+  abilities:
+  - {fileID: 11400000, guid: 7540844d6d1af6346bd068c857bb1aa7, type: 2}
+  - {fileID: 11400000, guid: 71a59bc4d85f01a4a9b4d1bac33d28fd, type: 2}
+  fieldOfView: 20
+  level2Buffs: []
+  level3Buffs: []
+  level4Buffs: []

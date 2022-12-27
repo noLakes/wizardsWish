@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b5fc5909bbcc6046922f439ecd0a8b3, type: 3}
+  m_Name: WizardsTower
+  m_EditorClassIdentifier: 
+  code: wizardsTower
+  unitName: Wizards Tower
+  description: Your seat of power. Protect it at all costs
+  health: 200
+  prefab: {fileID: 8234079515304222562, guid: c08ff596b38d6124bb81c4b5075edbdd, type: 3}
+  exclusiveRadius: 10000
+  attackDamage: 5
+  attackRange: 15
+  attackRate: 3
+  attackProjectile: {fileID: 4021969610456104402, guid: a5f150dc9deb970448cfadb59d04ab2e, type: 3}
+  attackOnHitAffects: []
+  cost: []
+  baseGoldProduction: 0
+  baseManaProduction: 3
+  canProduce: 04000000
+  abilities:
+  - {fileID: 11400000, guid: 8f77b8361a7f764438573bf11f58ca10, type: 2}
+  - {fileID: 11400000, guid: 6402bed1ca7012a4383b388f48ad562b, type: 2}
+  - {fileID: 11400000, guid: b1c6f065d3b9a6b44ac5999516efe957, type: 2}
+  - {fileID: 11400000, guid: 431a795a6d806aa4094411c2e343f671, type: 2}
+  - {fileID: 11400000, guid: 7884344730a89f44fbf46a4e20ae3959, type: 2}
+  fieldOfView: 30
+  level2Buffs: []
+  level3Buffs: []
+  level4Buffs: []

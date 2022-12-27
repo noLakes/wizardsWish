@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b5fc5909bbcc6046922f439ecd0a8b3, type: 3}
+  m_Name: 4_House
+  m_EditorClassIdentifier: 
+  code: house
+  unitName: House
+  description: Provides gold through taxation
+  health: 20
+  prefab: {fileID: 8234079515304222562, guid: 6daee5512d47c914782cc4ee22905583, type: 3}
+  exclusiveRadius: 0
+  attackDamage: 0
+  attackRange: 0
+  attackRate: 0
+  attackProjectile: {fileID: 0}
+  attackOnHitAffects: []
+  cost:
+  - code: 2
+    amount: 25
+  - code: 3
+    amount: 10
+  baseGoldProduction: 2
+  baseManaProduction: 0
+  canProduce: 00000000
+  abilities: []
+  fieldOfView: 10
+  level2Buffs: []
+  level3Buffs: []
+  level4Buffs: []

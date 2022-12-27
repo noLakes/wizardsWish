@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e23a59951ef67943b1c0a210a573844, type: 3}
+  m_Name: Smite
+  m_EditorClassIdentifier: 
+  code: smite
+  abilityName: Smite
+  description: Condemn a single unit to death with a powerful bolt of energy
+  cost:
+  - code: 4
+    amount: 30
+  type: 4
+  targetType: 2
+  targetKind: 2
+  targetAlignment: 1
+  unitReference: {fileID: 0}
+  castTime: 1.5
+  cooldown: 60
+  range: 150
+  targetingRadius: 0
+  targetAffects: []
+  casterAffects: []
+  projectileAffects:
+  - dmg/1000
+  projectilePrefab: {fileID: 4021969610456104402, guid: 2fb85575c7ffb9f4fbf7fc3f83a782ca, type: 3}
+  sprite: {fileID: 0}

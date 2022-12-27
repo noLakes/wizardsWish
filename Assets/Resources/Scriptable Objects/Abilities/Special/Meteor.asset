@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e23a59951ef67943b1c0a210a573844, type: 3}
+  m_Name: Meteor
+  m_EditorClassIdentifier: 
+  code: meteor
+  abilityName: Meteor
+  description: Summons a deadly meteor to destroy everything in its path.
+  cost:
+  - code: 4
+    amount: 200
+  type: 4
+  targetType: 3
+  targetKind: 1
+  targetAlignment: 0
+  unitReference: {fileID: 0}
+  castTime: 1
+  cooldown: 300
+  range: 300
+  targetingRadius: 15
+  targetAffects: []
+  casterAffects: []
+  projectileAffects:
+  - dmg/30
+  projectilePrefab: {fileID: 2760781267237421431, guid: 6fe3488ae72623b46b01d8ef17edf3f0, type: 3}
+  sprite: {fileID: 0}

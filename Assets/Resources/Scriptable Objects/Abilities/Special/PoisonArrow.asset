@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e23a59951ef67943b1c0a210a573844, type: 3}
+  m_Name: PoisonArrow
+  m_EditorClassIdentifier: 
+  code: poisonArrow
+  abilityName: Poison Arrow
+  description: Shoot the target with a poison arrow applying damage over time.
+  cost: []
+  type: 4
+  targetType: 2
+  targetKind: 2
+  targetAlignment: 1
+  unitReference: {fileID: 0}
+  castTime: 0.5
+  cooldown: 20
+  range: 15
+  targetingRadius: 0
+  targetAffects: []
+  casterAffects: []
+  projectileAffects:
+  - dot/1/2/5
+  projectilePrefab: {fileID: 4021969610456104402, guid: cafdfe9ef48980d4c9b28a0c414ba15d, type: 3}
+  sprite: {fileID: 0}

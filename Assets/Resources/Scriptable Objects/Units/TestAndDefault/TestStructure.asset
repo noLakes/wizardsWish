@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b5fc5909bbcc6046922f439ecd0a8b3, type: 3}
+  m_Name: TestStructure
+  m_EditorClassIdentifier: 
+  code: testStructure
+  unitName: Test Structure
+  description: A test structure that can product all units
+  health: 150
+  prefab: {fileID: 8234079515304222562, guid: 482e9904091c7594c92569a6a158635b, type: 3}
+  exclusiveRadius: 0
+  attackDamage: 2
+  attackRange: 10
+  attackRate: 3
+  attackProjectile: {fileID: 2760781267237421431, guid: ccc61c1509110294cafe24dc7a20060d, type: 3}
+  attackOnHitAffects: []
+  cost:
+  - code: 2
+    amount: 30
+  baseGoldProduction: 3
+  baseManaProduction: 0
+  canProduce: 010000000000000002000000
+  abilities:
+  - {fileID: 11400000, guid: 1c48b904944a987468c276abd1fa4feb, type: 2}
+  - {fileID: 11400000, guid: e38c1c59a41a1744bb9eb95015197618, type: 2}
+  - {fileID: 11400000, guid: dca6a197bfb1a7941979f09093a86fb0, type: 2}
+  - {fileID: 11400000, guid: 563846b2cfb1ce34bac6ea988f9340f5, type: 2}
+  - {fileID: 11400000, guid: 8af94ed305a0d194782d998214a339c8, type: 2}
+  fieldOfView: 30
+  level2Buffs: []
+  level3Buffs: []
+  level4Buffs: []

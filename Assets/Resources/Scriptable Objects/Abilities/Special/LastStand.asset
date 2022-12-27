@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e23a59951ef67943b1c0a210a573844, type: 3}
+  m_Name: LastStand
+  m_EditorClassIdentifier: 
+  code: 'lastStand '
+  abilityName: Last Stand
+  description: Imbue a unit with extreme power for a short while
+  cost:
+  - code: 4
+    amount: 100
+  type: 4
+  targetType: 2
+  targetKind: 2
+  targetAlignment: 2
+  unitReference: {fileID: 0}
+  castTime: 1
+  cooldown: 240
+  range: 0
+  targetingRadius: 0
+  targetAffects:
+  - attack+5/15
+  - speed+3/15
+  - health+/20/15
+  - attackRate+/-0.75/15
+  casterAffects: []
+  projectileAffects: []
+  projectilePrefab: {fileID: 0}
+  sprite: {fileID: 0}

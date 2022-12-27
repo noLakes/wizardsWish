@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e23a59951ef67943b1c0a210a573844, type: 3}
+  m_Name: TrainManAtArms
+  m_EditorClassIdentifier: 
+  code: trainManAtArms
+  abilityName: Train Man At Arms
+  description: Trains a new Man At Arms
+  cost:
+  - code: 2
+    amount: 20
+  - code: 0
+    amount: 10
+  type: 0
+  targetType: 0
+  targetKind: 0
+  targetAlignment: 0
+  unitReference: {fileID: 11400000, guid: 82a915b94b0401d49a1cf5fdb9e674f9, type: 2}
+  castTime: 8
+  cooldown: 0
+  range: 0
+  targetingRadius: 0
+  targetAffects: []
+  casterAffects: []
+  projectileAffects: []
+  projectilePrefab: {fileID: 0}
+  sprite: {fileID: 0}
